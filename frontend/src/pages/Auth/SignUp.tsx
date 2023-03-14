@@ -1,6 +1,11 @@
 import React from "react";
+import SignUpInput from "../../components/Auth/SignUpInput";
 
 function SignUp() {
-  return <div>회원가입 할거지야</div>;
+  return (
+    <div>
+      <SignUpInput></SignUpInput>
+    </div>
+  );
 }
 export default SignUp;
